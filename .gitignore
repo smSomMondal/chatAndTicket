@@ -2,8 +2,14 @@
 
 # dependencies
 /node_modules
+/backend/node_modules
+/backend/dataSet
+/backend/garbage
 /.pnp
 .pnp.js
+/src/components/zip
+/src/components/chatSec
+/src/components/dataSet
 
 # testing
 /coverage
