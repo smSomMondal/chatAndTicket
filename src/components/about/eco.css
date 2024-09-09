@@ -1,0 +1,94 @@
+
+.instructionbg{
+    background-image: url("./img/pngtree-person-sitting-under-an-art-gallery-in-a-museum-with-pictures-picture-image_2875476.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    border: 1px solid #ddd;
+    width: 98vw;
+   
+    box-sizing: border-box;
+    border-image: fill 0 linear-gradient(rgba(88, 87, 87, 0.336),#100f0f);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    color:rgb(245, 243, 241);
+}
+.instructionheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+.conflue-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    align-items: center;
+    margin: 100px 0;
+    gap:10vh;
+}
+
+.conflue-part {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.conflue-part-image-box {
+    margin: 20px;
+}
+
+.conflue-part-image-box img {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.conflue-part-image-box img:hover {
+    transform: scale(1.05);
+}
+
+.conflue-part-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.conflue-part-content h1 {
+    font-size: 60px;
+}
+
+.conflue-part-content p {
+    font-size: 22px;
+    color: var(--text2-color);
+}
+
+.event-content {
+    text-align: right;
+    align-items: end;
+}
+
+.backdrop-content {
+    text-align: left;
+    align-items: start;
+}
+
+.art-gallery-content {
+    text-align: right;
+    align-items: end;
+}
+
+
+
