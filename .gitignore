@@ -8,7 +8,6 @@
 /.pnp
 .pnp.js
 /src/components/zip
-/src/components/chatSec
 /src/components/dataSet
 
 # testing
